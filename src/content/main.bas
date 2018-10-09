@@ -177,9 +177,10 @@ def title(delta)
 		tick_rest_sec = rest_sec
 	endif
 	img tomato, 10, 8
-	text 22, 10, tomatoes
-	text 30, 10, "/"
-	text 38, 10, total_tomatoes
+	stomatoes = str(tomatoes)
+	text 22, 10, stomatoes
+	text 22 + 8 * len(stomatoes), 10, "/"
+	text 30 + 8 * len(stomatoes), 10, total_tomatoes
 enddef
 
 def tick(delta)
@@ -255,9 +256,10 @@ def tick(delta)
 		paused = not paused
 	endif
 	img tomato, 10, 8
-	text 22, 10, tomatoes, BLACK
-	text 30, 10, "/", BLACK
-	text 38, 10, total_tomatoes, BLACK
+	stomatoes = str(tomatoes)
+	text 22, 10, stomatoes, BLACK
+	text 22 + 8 * len(stomatoes), 10, "/", BLACK
+	text 30 + 8 * len(stomatoes), 10, total_tomatoes, BLACK
 enddef
 
 update_with
