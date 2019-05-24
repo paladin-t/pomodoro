@@ -6,7 +6,7 @@ In-browser: on [itch.io](https://tonywang.itch.io/tomato) or [GitHub](https://pa
 
 [Download](https://tonywang.itch.io/tomato): for Windows, MacOS, Linux
 
-![Screenshot](src/content/sticker.png "Tomato")
+![Screenshot](content/sticker.png "Tomato")
 ![Preview](imgs/tomato.gif "Tomato")
 
 Ticktock, ticktock...
