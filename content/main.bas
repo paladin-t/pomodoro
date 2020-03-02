@@ -45,7 +45,7 @@ tick_work_min = 0
 tick_work_sec = 0
 tick_rest_min = 0
 tick_rest_sec = 0
-t = 0
+t = 0 ' Time counter.
 notice = nil
 paused = false
 
